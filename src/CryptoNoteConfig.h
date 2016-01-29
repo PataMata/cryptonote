@@ -63,7 +63,6 @@ const size_t   FUSION_TX_MAX_SIZE                            = CRYPTONOTE_BLOCK_
 const size_t   FUSION_TX_MIN_INPUT_COUNT                     = 12;
 const size_t   FUSION_TX_MIN_IN_OUT_COUNT_RATIO              = 4;
 
-const char     CRYPTONOTE_NAME[]                             = "9GagCoin";
 const char     CRYPTONOTE_BLOCKS_FILENAME[]                  = "blocks.dat";
 const char     CRYPTONOTE_BLOCKINDEXES_FILENAME[]            = "blockindexes.dat";
 const char     CRYPTONOTE_BLOCKSCACHE_FILENAME[]             = "blockscache.dat";
@@ -74,7 +73,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 } // parameters
 
 //TODO Put here the name of your currency
-const char     CRYPTONOTE_NAME[]                             = "";
+const char     CRYPTONOTE_NAME[]                             = "9GagCoin";
 const char     GENESIS_COINBASE_TX_HEX[]                     = "";
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
@@ -107,8 +106,8 @@ const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "8f80f9a5a434a9f1
 
 //TODO Add here your network seed nodes
 const std::initializer_list<const char*> SEED_NODES = {
-  //"your_seed_ip1.com:8080",
-  //"your_seed_ip2.com:8080",
+  "192.168.127.1:10420",
+  "192.168.137.1:10456",
 };
 
 struct CheckpointData {
